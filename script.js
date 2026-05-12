@@ -2,7 +2,7 @@ let questions = JSON.parse(localStorage.getItem("quizQuestions")) || [];
  let currentQuestionIndex = 0;
  let score = 0;
  let timer;
- let timeLeft = 30;
+ let timeLeft = 30; 
  let editingQuestionIndex = -1;
 
  function saveQuestionsToStorage() {
